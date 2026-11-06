@@ -57,3 +57,13 @@ This project was completed as part of a simulated exercise in the Google Cyberse
 ## Documentation
 
 - [Full Incident Report](reports/incident-report.md)
+
+## Network Traffic Evidence
+
+The tcpdump log contains three DNS queries sent over UDP
+and three ICMP destination-unreachable responses.
+
+The captured traffic indicates that the DNS service
+was inaccessible through UDP port 53.
+
+[View the original tcpdump log](evidence/tcpdump-log.txt)
